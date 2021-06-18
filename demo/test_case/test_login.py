@@ -29,7 +29,7 @@ class login_(unittest.TestCase):
         try:
             cls.driver = webdriver.Chrome(options=Chorme_option().option())
             logging.info("打开Chrome浏览器")
-            cls.driver.implicitly_wait(10)
+            cls.driver.implicitly_wait(2)
             cls.lg = login_page(cls.driver)
             cls.um = user_manager(cls.driver)
             logging.info("实例化浏览器对象成功")
@@ -93,8 +93,10 @@ class login_(unittest.TestCase):
             user = self.driver.find_element_by_xpath("//span[text()='更改成功']")
             self.assertEqual(user.text, "更改成功", msg="测试不通过")
             logging.info("员工离职成功")
-        except Exception as f:
-            logging.error("员工有业务离职失败:%s"%f)
+        except :
+            user = self.driver.find_element_by_xpath("//span[text()='该员工有未完成的业务']")
+            self.assertEqual(user.text, "该员工有未完成的业务", msg="测试不通过")
+            logging.info("员工有业务离职失败")
 
     @classmethod
     def tearDownClass(cls) -> None:
