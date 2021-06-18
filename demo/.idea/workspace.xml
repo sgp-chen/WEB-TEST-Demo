@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9697865e-e4dd-4623-94cc-7e4cd8902e36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/测试报告 2021-06-11 10：08：22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/测试报告 2021-06-17 17：48：34.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/run/run_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/smtp_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/smtp_post.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_login.py">
+  <component name="RunManager" selected="Python.smtp_post">
     <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="user_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="smtp_post" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,12 +75,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/user_manager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/smtp_post.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_login.py" />
+        <item itemvalue="Python.smtp_post" />
         <item itemvalue="Python.run_all" />
+        <item itemvalue="Python tests.Unittests in test_login.py" />
         <item itemvalue="Python tests.Unittests in baidu.py" />
         <item itemvalue="Python tests.Unittests for test_login.login_.test_07" />
-        <item itemvalue="Python.user_manager" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +166,8 @@
       <workItem from="1623908221716" duration="3653000" />
       <workItem from="1623927147652" duration="1147000" />
       <workItem from="1623985630135" duration="45000" />
+      <workItem from="1623985960241" duration="815000" />
+      <workItem from="1623986801694" duration="1122000" />
     </task>
     <servers />
   </component>
@@ -187,6 +187,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/run_all_py$smtp_post.coverage" NAME="smtp_post Coverage Results" MODIFIED="1623987849048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/demo$smtp_post.coverage" NAME="smtp_post Coverage Results" MODIFIED="1623377204473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/demo$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1623377301655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/demo$test.coverage" NAME="test Coverage Results" MODIFIED="1620644934589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -194,7 +195,7 @@
     <SUITE FILE_PATH="coverage/demo$Unittests_in_baidu_py.coverage" NAME="Unittests in baidu.py Coverage Results" MODIFIED="1623841324171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/run_all_py$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1623925542095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/demo$user_manager.coverage" NAME="user_manager Coverage Results" MODIFIED="1623405560863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
-    <SUITE FILE_PATH="coverage/run_all_py$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1623923314203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/run_all_py$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1623986022241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/demo$Unittests_for_test_login_login__test_07.coverage" NAME="Unittests for test_login.login_.test_07 Coverage Results" MODIFIED="1623407518057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
   </component>
 </project>
