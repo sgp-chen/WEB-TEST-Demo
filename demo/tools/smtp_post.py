@@ -10,7 +10,7 @@ class email_():
         ##查找tmp-开头的文件路径名
         tmp_dirs = glob.glob(os.path.join(tmp_path, '测试报告*.html'))
         ## 获取路径中的文件名
-        ## 可通过os.path.split分割，可避免windows和linux的分隔符不同的问题
+        ## 可通过os.path.split分割，可避免windows和linux的分隔符不同的问题，并发送报告中时间最新的报告
         file_name = os.path.split(tmp_dirs[-1])[-1]
         return file_name
 

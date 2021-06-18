@@ -14,9 +14,9 @@ class user_manager(tools):
     number = (By.XPATH,
               '//*[@id="app"]/section/section/main/div/div/div/div[2]/div/div/div/div[1]/form/div[2]/div[3]/div/div[2]/div/span/input')
     button = (
-    By.XPATH, '//*[@id="app"]/section/section/main/div/div/div/div[2]/div/div/div/div[1]/form/div[1]/div/button[1]')
+        By.XPATH, '//*[@id="app"]/section/section/main/div/div/div/div[2]/div/div/div/div[1]/form/div[1]/div/button[1]')
     reload = (
-    By.XPATH, '//*[@id="app"]/section/section/main/div/div/div/div[2]/div/div/div/div[1]/form/div[1]/div/button[2]')
+        By.XPATH, '//*[@id="app"]/section/section/main/div/div/div/div[2]/div/div/div/div[1]/form/div[1]/div/button[2]')
     resign = (By.XPATH, "//div[text()='已离职']")
     aduser = (By.XPATH, "// button[@class ='ant-btn ant-btn-primary ant-btn-sm']")
     eduser = (By.XPATH, "//a[text()='编辑'][1]")
