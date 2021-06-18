@@ -3,7 +3,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 import glob, os
-import platform
 
 class email_():
     def file_path(self):
@@ -12,14 +11,8 @@ class email_():
         tmp_dirs = glob.glob(os.path.join(tmp_path, '测试报告*.html'))
         ## 获取路径中的文件名
         ## 可通过os.path.split分割，可避免windows和linux的分隔符不同的问题
-        platform_=platform.system()
-        print(tmp_dirs)
-        if platform_ == "Windows":
-            file_name = os.path.split(tmp_dirs[-1])[-1]
-            return file_name
-        else:
-            file_name = os.path.split(tmp_dirs[0])[-1]
-            return file_name
+        file_name = os.path.split(tmp_dirs[-1])[-1]
+        return file_name
 
     def mail_(self):
         mail_host = "smtp.qq.com"
