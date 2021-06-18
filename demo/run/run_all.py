@@ -10,4 +10,4 @@ if __name__ == '__main__':
     now = datetime.datetime.now().strftime('%Y-%m-%d %H：%M：%S')
     filename = '测试报告 ' + str(now)
     BeautifulReport(discover).report(description='测试', filename=filename, log_path=filepath)
-    # email_().mail_()
+    email_().mail_()
