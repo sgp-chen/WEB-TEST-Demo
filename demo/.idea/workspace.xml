@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9697865e-e4dd-4623-94cc-7e4cd8902e36" name="Default Changelist" comment="删除多余文件">
-      <change afterPath="$PROJECT_DIR$/test_case/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/test_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/Login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/Login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/user_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/user_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/demo.py" afterDir="false" />
-    </list>
+    <list default="true" id="9697865e-e4dd-4623-94cc-7e4cd8902e36" name="Default Changelist" comment="优化测试用例结构" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +178,7 @@
       <workItem from="1624258483424" duration="1042000" />
       <workItem from="1624270881785" duration="2793000" />
       <workItem from="1624273834526" duration="2716000" />
-      <workItem from="1624276586702" duration="712000" />
+      <workItem from="1624276586702" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="增加data_page文件">
       <created>1624244408769</created>
@@ -216,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624258630469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="优化测试用例结构">
+      <created>1624277428977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624277428977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +236,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加data_page文件" />
     <MESSAGE value="删除多余文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除多余文件" />
+    <MESSAGE value="优化测试用例结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化测试用例结构" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/run_all_py$Unittests_for_test_login_login__test_01.coverage" NAME="Unittests for test_login.login_.test_01 Coverage Results" MODIFIED="1624276777338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
