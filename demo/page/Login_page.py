@@ -7,7 +7,7 @@ class login_page(tools):
     # user = (By.XPATH, "//*[@id='username']")
     # pwd = (By.XPATH, "//*[@id='password']")
     # button=(By.XPATH,'//*[@id="formLogin"]/div[2]/div/div/span/button')
-    def login_(self,username,passwd):
+    def login(self,username,passwd):
         self.get_()
         self.send_(self.le.user,username)
         self.send_(self.le.pwd,passwd)
