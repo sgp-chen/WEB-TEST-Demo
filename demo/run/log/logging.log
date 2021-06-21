@@ -91,3 +91,53 @@
 2021-06-18 17:19:44,074 - test_login.py[line:84] - INFO: 成功跳转至:编辑员工 - 线测环境总部页面
 2021-06-18 17:19:50,763 - test_login.py[line:100] - INFO: 员工有业务离职失败
 2021-06-18 17:19:53,912 - test_login.py[line:106] - INFO: 成功关闭浏览器
+2021-06-18 17:36:09,638 - test_login.py[line:32] - INFO: 打开Chrome浏览器
+2021-06-18 17:36:09,641 - test_login.py[line:36] - INFO: 实例化浏览器对象成功
+2021-06-18 17:36:13,872 - test_login.py[line:46] - INFO: 登录saas成功
+2021-06-18 17:36:14,901 - test_login.py[line:55] - INFO: 会员搜索成功
+2021-06-18 17:36:15,017 - test_login.py[line:63] - INFO: 重置按钮重置成功
+2021-06-18 17:36:16,271 - test_login.py[line:71] - INFO: 切换标签成功
+2021-06-18 17:36:17,344 - test_login.py[line:77] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-18 17:36:17,941 - test_login.py[line:87] - ERROR: 错误：'编辑员工1' not found in '编辑员工 - 线测环境总部' : 测试不通过
+2021-06-18 17:36:24,425 - test_login.py[line:101] - INFO: 员工有业务离职失败
+2021-06-18 17:36:27,556 - test_login.py[line:107] - INFO: 成功关闭浏览器
+2021-06-18 17:37:58,465 - test_login.py[line:32] - INFO: 打开Chrome浏览器
+2021-06-18 17:37:58,466 - test_login.py[line:36] - INFO: 实例化浏览器对象成功
+2021-06-18 17:38:02,511 - test_login.py[line:46] - INFO: 登录saas成功
+2021-06-18 17:38:03,447 - test_login.py[line:55] - INFO: 会员搜索成功
+2021-06-18 17:38:03,548 - test_login.py[line:63] - INFO: 重置按钮重置成功
+2021-06-18 17:38:04,738 - test_login.py[line:71] - INFO: 切换标签成功
+2021-06-18 17:38:05,811 - test_login.py[line:77] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-18 17:38:06,404 - test_login.py[line:26] - INFO: 登录成功
+2021-06-18 17:38:12,873 - test_login.py[line:101] - INFO: 员工有业务离职失败
+2021-06-18 17:38:16,038 - test_login.py[line:107] - INFO: 成功关闭浏览器
+2021-06-18 17:39:56,907 - test_login.py[line:32] - INFO: 打开Chrome浏览器
+2021-06-18 17:39:56,908 - test_login.py[line:36] - INFO: 实例化浏览器对象成功
+2021-06-18 17:40:00,845 - test_login.py[line:46] - INFO: 登录saas成功
+2021-06-18 17:40:01,696 - test_login.py[line:55] - INFO: 会员搜索成功
+2021-06-18 17:40:01,789 - test_login.py[line:63] - INFO: 重置按钮重置成功
+2021-06-18 17:40:02,987 - test_login.py[line:71] - INFO: 切换标签成功
+2021-06-18 17:40:04,061 - test_login.py[line:77] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-18 17:40:04,717 - test_login.py[line:26] - INFO: 登录成功
+2021-06-18 17:40:11,339 - test_login.py[line:101] - INFO: 员工有业务离职失败
+2021-06-18 17:40:14,488 - test_login.py[line:107] - INFO: 成功关闭浏览器
+2021-06-21 10:52:26,585 - test_login.py[line:32] - INFO: 打开Chrome浏览器
+2021-06-21 10:52:26,595 - test_login.py[line:36] - INFO: 实例化浏览器对象成功
+2021-06-21 10:52:32,659 - test_login.py[line:46] - INFO: 登录saas成功
+2021-06-21 10:52:33,683 - test_login.py[line:55] - INFO: 会员搜索成功
+2021-06-21 10:52:33,817 - test_login.py[line:63] - INFO: 重置按钮重置成功
+2021-06-21 10:52:35,000 - test_login.py[line:71] - INFO: 切换标签成功
+2021-06-21 10:52:36,098 - test_login.py[line:77] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-21 10:52:36,553 - test_login.py[line:84] - INFO: 成功跳转至:编辑员工 - 线测环境总部页面
+2021-06-21 10:52:43,127 - test_login.py[line:100] - INFO: 员工有业务离职失败
+2021-06-21 10:52:46,265 - test_login.py[line:106] - INFO: 成功关闭浏览器
+2021-06-21 10:57:22,905 - test_login.py[line:32] - INFO: 打开Chrome浏览器
+2021-06-21 10:57:22,906 - test_login.py[line:36] - INFO: 实例化浏览器对象成功
+2021-06-21 10:57:26,912 - test_login.py[line:46] - INFO: 登录saas成功
+2021-06-21 10:57:27,747 - test_login.py[line:55] - INFO: 会员搜索成功
+2021-06-21 10:57:27,873 - test_login.py[line:63] - INFO: 重置按钮重置成功
+2021-06-21 10:57:29,070 - test_login.py[line:71] - INFO: 切换标签成功
+2021-06-21 10:57:30,184 - test_login.py[line:77] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-21 10:57:30,604 - test_login.py[line:84] - INFO: 成功跳转至:编辑员工 - 线测环境总部页面
+2021-06-21 10:57:37,191 - test_login.py[line:100] - INFO: 员工有业务离职失败
+2021-06-21 10:57:40,301 - test_login.py[line:106] - INFO: 成功关闭浏览器

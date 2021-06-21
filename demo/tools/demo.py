@@ -17,6 +17,9 @@ class tools():
 
     def send_(self, loc, text):
         self.find_(*loc).send_keys(text)
+        
+    def view_(self,loc):
+        return self.find_(*loc).location_once_scrolled_into_view
 
     def get_(self):
         self.driver.get(self.url)

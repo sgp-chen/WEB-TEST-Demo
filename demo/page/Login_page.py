@@ -1,16 +1,17 @@
 from tools.demo import tools
-from selenium.webdriver.common.by import By
 from time import sleep
+from data_page.Login_Element import Login_Element
 class login_page(tools):
     url = tools.url+"/user/login"
-    user = (By.XPATH, "//*[@id='username']")
-    pwd = (By.XPATH, "//*[@id='password']")
-    button=(By.XPATH,'//*[@id="formLogin"]/div[2]/div/div/span/button')
+    le=Login_Element()
+    # user = (By.XPATH, "//*[@id='username']")
+    # pwd = (By.XPATH, "//*[@id='password']")
+    # button=(By.XPATH,'//*[@id="formLogin"]/div[2]/div/div/span/button')
     def login_(self,username,passwd):
         self.get_()
-        self.send_(self.user,username)
-        self.send_(self.pwd,passwd)
-        self.click_(self.button)
+        self.send_(self.le.user,username)
+        self.send_(self.le.pwd,passwd)
+        self.click_(self.le.button)
         sleep(2)
         self.refresh_()
 # if __name__ == '__main__':
