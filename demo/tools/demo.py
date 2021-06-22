@@ -8,8 +8,9 @@ import random, string
 class tools():
     url = "http://t-saas.lianduoduo.com/websaas/#"
 
-    def __init__(self, driver):
+    def __init__(self, driver, log):
         self.driver = driver
+        self.log = log
 
     def find_(self, *loc):
         return self.driver.find_element(*loc)
@@ -80,4 +81,3 @@ class Chorme_option():
         self.prefs['profile.password_manager_enabled'] = False
         self.options.add_experimental_option('prefs', self.prefs)
         return self.options
-

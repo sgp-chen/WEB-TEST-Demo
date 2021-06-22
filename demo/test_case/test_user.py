@@ -7,8 +7,6 @@ import time
 from test_case.login import login_
 from tools.demo import tools
 
-CONF_LOG = "../log_config/config.ini"
-logging.config.fileConfig(CONF_LOG)  # 采用配置文件
 
 
 def save_img(self, test_method):
@@ -52,7 +50,7 @@ class user_(login_):
 
     def test_06(self):
         '''添加新的成员'''
-        b = tools(self.driver).ran_str()
+        b = tools(self.driver,self.log).ran_str()
         self.um.add_person(b)
         time.sleep(1)
         names = self.driver.find_element_by_xpath("//td[2]")

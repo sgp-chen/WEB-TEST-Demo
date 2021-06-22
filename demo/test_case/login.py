@@ -1,4 +1,5 @@
 import os
+from log_config import log_config
 from page.Login_page import login_page
 from selenium import webdriver
 import unittest
@@ -8,8 +9,8 @@ import logging, logging.config
 from page.user_manager import user_manager
 import time
 
-CONF_LOG = "../log_config/config.ini"
-logging.config.fileConfig(CONF_LOG)  # 采用配置文件
+# CONF_LOG = "../log_config/config.ini"
+# logging.config.fileConfig(CONF_LOG)  # 采用配置文件
 
 
 
@@ -23,13 +24,14 @@ def save_img(self, test_method):
 class login_(unittest.TestCase):
 
     @classmethod
-    def setUpClass(cls) -> None:
+    def setUpClass(cls) :
         try:
             cls.driver = webdriver.Chrome(options=Chorme_option().option())
+            cls.log=log_config.get_log("../log_config/config.ini")
             logging.info("打开Chrome浏览器")
             cls.driver.implicitly_wait(2)
-            cls.lg = login_page(cls.driver)
-            cls.um=user_manager(cls.driver)
+            cls.lg = login_page(cls.driver,cls.log)
+            cls.um=user_manager(cls.driver,cls.log)
             logging.info("实例化浏览器对象成功")
         except Exception as e:
             logging.error("实例化浏览器对象失败：{}".format(e))

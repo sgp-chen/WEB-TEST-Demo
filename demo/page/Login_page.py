@@ -7,6 +7,7 @@ class login_page(tools):
     url = tools.url + "/user/login"
     le = Login_Element()
 
+
     def login(self, username, passwd):
         self.get_()
         self.send_(self.le.user, username)
