@@ -5,10 +5,10 @@ import os
 from BeautifulReport import BeautifulReport
 import time
 from test_case.login import login_
+from tools.demo import tools
 
 CONF_LOG = "../log_config/config.ini"
 logging.config.fileConfig(CONF_LOG)  # 采用配置文件
-
 
 
 def save_img(self, test_method):
@@ -51,6 +51,15 @@ class user_(login_):
         logging.info("成功跳转至:{}页面".format(self.driver.title))
 
     def test_06(self):
+        '''添加新的成员'''
+        b = tools(self.driver).ran_str()
+        self.um.add_person(b)
+        time.sleep(1)
+        names = self.driver.find_element_by_xpath("//td[2]")
+        self.assertEqual(b, names.text, msg="测试不通过")
+        logging.info("添加员工成功")
+
+    def test_07(self):
         '''跳转列表第一位会员并编辑'''
         try:
             self.um.edit_user()
@@ -59,7 +68,7 @@ class user_(login_):
         except Exception as e:
             logging.error("错误：{}".format(e))
 
-    def test_07(self):
+    def test_08(self):
         '''员工离职'''
         self.um.user_resign()
         self.um.click_close()

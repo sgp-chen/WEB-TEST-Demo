@@ -12,3 +12,156 @@
 2021-06-21 20:08:44,032 - test_user.py[line:58] - INFO: 成功跳转至:编辑员工 - 线测环境总部页面
 2021-06-21 20:08:50,720 - test_user.py[line:74] - INFO: 员工有业务离职失败
 2021-06-21 20:08:53,967 - test_user.py[line:80] - INFO: 成功关闭浏览器
+2021-06-22 11:30:11,721 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:30:11,724 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:30:18,042 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:30:21,216 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:30:22,665 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:30:22,667 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:30:26,688 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:30:27,534 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:30:27,661 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:30:28,888 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:30:29,954 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:30:35,071 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:31:00,769 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:31:00,772 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:31:05,298 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:31:08,513 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:31:10,141 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:31:10,144 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:31:14,485 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:31:15,484 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:31:15,591 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:31:16,831 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:31:17,930 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:31:23,242 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:32:43,019 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:32:43,021 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:32:47,362 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:32:50,553 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:32:52,440 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:32:52,443 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:32:56,747 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:32:57,718 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:32:57,823 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:32:59,048 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:33:00,115 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:33:05,479 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:36:50,560 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:36:50,564 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:36:55,159 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:36:58,355 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:36:59,998 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:37:00,003 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:37:04,576 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:37:05,536 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:37:05,640 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:37:06,903 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:37:08,011 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:37:13,346 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:40:38,085 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:40:38,086 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:40:42,403 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:40:45,599 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:40:47,176 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:40:47,179 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:40:51,512 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:40:52,428 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:40:52,532 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:40:53,787 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:40:54,912 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:41:00,311 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:42:51,859 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:42:51,861 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:42:56,205 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:42:59,405 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:43:01,012 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:43:01,015 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:43:05,652 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:43:06,558 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:43:06,672 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:43:07,857 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:43:08,922 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:43:14,262 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:43:18,526 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:43:18,530 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:43:24,568 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:43:27,782 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:43:29,323 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:43:29,324 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:43:34,303 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:43:35,203 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:43:35,299 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:43:36,462 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:43:37,542 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:43:42,986 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:50:03,265 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:50:03,268 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:50:07,673 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:50:10,867 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:50:12,577 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:50:12,578 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:50:17,252 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:50:18,242 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:50:18,340 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:50:19,522 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:50:20,587 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:50:27,953 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 11:52:23,797 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:52:23,799 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:52:28,376 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:52:31,594 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 11:52:33,181 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 11:52:33,183 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 11:52:37,654 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 11:52:38,651 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 11:52:38,766 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 11:52:40,021 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 11:52:41,101 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 11:52:49,983 - test_user.py[line:84] - INFO: 成功关闭浏览器
+2021-06-22 12:02:54,900 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:02:54,903 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:02:59,634 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 12:03:02,842 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 12:03:04,456 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:03:04,459 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:03:09,136 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 12:03:10,099 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 12:03:10,209 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 12:03:11,457 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 12:03:12,555 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 12:03:22,498 - test_user.py[line:87] - INFO: 成功关闭浏览器
+2021-06-22 12:20:54,757 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:20:54,762 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:20:58,585 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 12:21:00,179 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:21:00,181 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:22:20,173 - test_user.py[line:88] - INFO: 成功关闭浏览器
+2021-06-22 12:37:49,664 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:37:49,666 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:37:54,121 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 12:37:57,311 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 12:37:58,914 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:37:58,916 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:38:03,318 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 12:38:04,265 - test_user.py[line:30] - INFO: 会员搜索成功
+2021-06-22 12:38:04,362 - test_user.py[line:38] - INFO: 重置按钮重置成功
+2021-06-22 12:38:05,608 - test_user.py[line:46] - INFO: 切换标签成功
+2021-06-22 12:38:06,739 - test_user.py[line:52] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 12:38:16,751 - test_user.py[line:89] - INFO: 成功关闭浏览器
+2021-06-22 12:41:53,053 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:41:53,054 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:41:57,272 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 12:42:00,374 - login.py[line:49] - INFO: 成功关闭浏览器
+2021-06-22 12:42:01,811 - login.py[line:29] - INFO: 打开Chrome浏览器
+2021-06-22 12:42:01,812 - login.py[line:33] - INFO: 实例化浏览器对象成功
+2021-06-22 12:42:05,951 - login.py[line:43] - INFO: 登录saas成功
+2021-06-22 12:42:06,822 - test_user.py[line:29] - INFO: 会员搜索成功
+2021-06-22 12:42:06,916 - test_user.py[line:37] - INFO: 重置按钮重置成功
+2021-06-22 12:42:08,136 - test_user.py[line:45] - INFO: 切换标签成功
+2021-06-22 12:42:09,216 - test_user.py[line:51] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-22 12:42:15,802 - test_user.py[line:60] - INFO: 添加员工成功
+2021-06-22 12:42:17,042 - test_user.py[line:67] - INFO: 成功跳转至:编辑员工 - 线测环境总部页面
+2021-06-22 12:42:21,426 - test_user.py[line:79] - INFO: 员工离职成功
+2021-06-22 12:42:24,551 - test_user.py[line:89] - INFO: 成功关闭浏览器

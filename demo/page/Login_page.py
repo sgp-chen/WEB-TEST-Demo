@@ -1,16 +1,16 @@
 from tools.demo import tools
 from time import sleep
 from data_page.Login_Element import Login_Element
+
+
 class login_page(tools):
-    url = tools.url+"/user/login"
-    le=Login_Element()
-    # user = (By.XPATH, "//*[@id='username']")
-    # pwd = (By.XPATH, "//*[@id='password']")
-    # button=(By.XPATH,'//*[@id="formLogin"]/div[2]/div/div/span/button')
-    def login(self,username,passwd):
+    url = tools.url + "/user/login"
+    le = Login_Element()
+
+    def login(self, username, passwd):
         self.get_()
-        self.send_(self.le.user,username)
-        self.send_(self.le.pwd,passwd)
+        self.send_(self.le.user, username)
+        self.send_(self.le.pwd, passwd)
         self.click_(self.le.button)
         sleep(2)
         self.refresh_()
@@ -21,6 +21,3 @@ class login_page(tools):
 #     user="13999999999"
 #     pwd="123456a"
 #     lp.login_(user,pwd)
-
-
-

@@ -1,6 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+from faker import Faker
+import random, string
 
 
 class tools():
@@ -17,8 +19,8 @@ class tools():
 
     def send_(self, loc, text):
         self.find_(*loc).send_keys(text)
-        
-    def view_(self,loc):
+
+    def view_(self, loc):
         return self.find_(*loc).location_once_scrolled_into_view
 
     def get_(self):
@@ -37,13 +39,28 @@ class tools():
         ActionChains(self.driver).send_keys(Keys.ENTER).perform()
 
     def Back_Space_(self):
-        ActionChains(self.driver).send_keys(Keys.BACK_SPACE)
+        ActionChains(self.driver).send_keys(Keys.BACK_SPACE).perform()
+
+    def esc_(self):
+        ActionChains(self.driver).send_keys(Keys.ESCAPE).perform()
 
     def double_mouse(self):
         ActionChains(self.driver).double_click().perform()
 
     def down_(self):
         self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+
+    def faker_(self):
+        fak = Faker(locale='zh_CN')
+        return fak.name()
+
+    def ran_str(self):
+        name = ''.join(random.sample(string.ascii_letters + string.digits, 4))
+        return name
+
+    def number(self):
+        num = "191" + str(random.randint(00000000, 99999999))
+        return num
 
 
 class Chorme_option():
@@ -52,7 +69,7 @@ class Chorme_option():
         self.options.add_argument('start-maximized')
         self.options.add_experimental_option('useAutomationExtension', False)
         self.options.add_experimental_option('excludeSwitches', ['enable-automation'])
-        #root运行且无图形界面
+        # root运行且无图形界面
         self.options.add_argument('--no-sandbox')
         self.options.add_argument('--disable-dev-shm-usage')
         self.options.add_argument('--headless')
@@ -63,3 +80,4 @@ class Chorme_option():
         self.prefs['profile.password_manager_enabled'] = False
         self.options.add_experimental_option('prefs', self.prefs)
         return self.options
+
