@@ -9,24 +9,18 @@ import openpyxl
 
 # 获取到excel，进入sheet页中，读取单元格内容
 from openpyxl.styles import PatternFill, Font
-
+import excel_driver.excel_conf
 from excel_driver import excel_conf
 from my_conf import log_conf
 from ui_keys.web_keys import WebKey
 
 
 # Excel数据驱动类
-def excel_runner(path, log):
-    excel = openpyxl.load_workbook(path)
+def excel_runner(path, sheet_name, log):
+    excel = excel_conf.excel_open(path)
     try:
-        # 获取所有的sheet页
-        sheets = excel.sheetnames
-        # 遍历所有sheet页
-        for sheet in sheets:
+        for sheet in excel_conf.excel_sheet(path, sheet_name):
             sheet_temp = excel[sheet]
-            # 如果sheet中包含特定字段，直接continue
-            # 遍历sheet页中所有的单元格
-            log.info('—————————{}—————————'.format(sheet))
             for values in sheet_temp.values:
                 # 1. 读取用例的执行部分的内容。
                 if type(values[0]) is int:
@@ -47,19 +41,8 @@ def excel_runner(path, log):
                     if values[1] == 'open_browser':
                         wk = WebKey(values[4], log)
                     # 断言可能不会只有一种，只要有assert关键字，就是一个断言函数
-                    elif 'assert' in values[1]:
-                        # 只有断言函数才会有返回值。
-                        status = getattr(wk, values[1])(**data)
-                        # 基于status来写入测试的结果
-                        if status:
-                            # 执行Pass写入
-                            excel_conf.pass_(sheet_temp.cell, values[0] + 2, 8)
-                        else:
-                            # 执行Failed写入
-                            excel_conf.failed(sheet_temp.cell, values[0] + 2, 8)
-                        # 执行excel的保存
-                        excel.save(path)
                     else:
+                        # 只有断言函数才会有返回值。
                         getattr(wk, values[1])(**data)
     except Exception as e:
         log.exception('运行异常：{}'.format(e))
