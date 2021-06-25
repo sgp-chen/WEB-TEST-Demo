@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9697865e-e4dd-4623-94cc-7e4cd8902e36" name="Default Changelist" comment="增加系统判断">
-      <change afterPath="$PROJECT_DIR$/../ui_frame/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui_frame/data/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_frame/data/data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_frame/excel_driver/excel_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_frame/excel_driver/excel_conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_frame/excel_driver/excel_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_frame/excel_driver/excel_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_frame/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_frame/frame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
       <recent name="D:\python demo\demo\data_page" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_user.py">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +155,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_user.py" />
-        <item itemvalue="Python tests.Unittests in login.py" />
         <item itemvalue="Python.user_manager" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.demo" />
@@ -208,6 +203,9 @@
       <workItem from="1624421760898" duration="1591000" />
       <workItem from="1624430546766" duration="6000" />
       <workItem from="1624503792507" duration="6000" />
+      <workItem from="1624600770014" duration="193000" />
+      <workItem from="1624600974487" duration="39000" />
+      <workItem from="1624601023275" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="增加data_page文件">
       <created>1624244408769</created>

@@ -3,15 +3,9 @@
         实现目的：基于excel中的内容，来调用关键字类实现自动化测试的执行。
         相当于excel文件就是一个测试用例，底层代码就是关键字驱动类以及excel驱动类
 '''
-import logging.config
-
-import openpyxl
 
 # 获取到excel，进入sheet页中，读取单元格内容
-from openpyxl.styles import PatternFill, Font
-import excel_driver.excel_conf
 from excel_driver import excel_conf
-from my_conf import log_conf
 from ui_keys.web_keys import WebKey
 
 
@@ -19,7 +13,9 @@ from ui_keys.web_keys import WebKey
 def excel_runner(path, sheet_name, log):
     excel = excel_conf.excel_open(path)
     try:
-        for sheet in excel_conf.excel_sheet(path, sheet_name):
+        for number in excel_conf.excel_sheet(path, sheet_name)[1]:
+            sheet_num = number
+        for sheet in excel_conf.excel_sheet(path, sheet_name)[0]:
             sheet_temp = excel[sheet]
             for values in sheet_temp.values:
                 # 1. 读取用例的执行部分的内容。
@@ -34,15 +30,21 @@ def excel_runner(path, sheet_name, log):
                     # print(data)
                     # 优化测试数据内容,将所有为None的数据全部清除出data中
                     for key in list(data.keys()):
-                        # print(key)
                         if data[key] is None:
                             del data[key]
                     # 调用对应的关键字来执行操作行为：分为三种不同的场景，不同场景需要不同处理
                     if values[1] == 'open_browser':
                         wk = WebKey(values[4], log)
                     # 断言可能不会只有一种，只要有assert关键字，就是一个断言函数
-                    else:
+                    elif "assert" in values[1]:
                         # 只有断言函数才会有返回值。
+                        item = getattr(wk, values[1])(**data)
+                        if item:
+                            excel_conf.pass_(excel[sheet_name].cell, sheet_num + 1, 3)
+                        else:
+                            excel_conf.failed(excel[sheet_name].cell, sheet_num + 1, 3)
+                        excel.save(path)
+                    else:
                         getattr(wk, values[1])(**data)
     except Exception as e:
         log.exception('运行异常：{}'.format(e))

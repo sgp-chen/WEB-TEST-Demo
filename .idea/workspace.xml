@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0692be7b-da07-4ce4-ab03-5a2cafa5aa2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/log_config/log_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/run/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/run/run_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test_case/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test_case/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test_case/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test_case/test_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/tools/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/tools/demo.py" afterDir="false" />
+    <list default="true" id="0692be7b-da07-4ce4-ab03-5a2cafa5aa2f" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/ui_frame/data/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui_frame/data/data.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624364562814</updated>
       <workItem from="1624364564563" duration="145000" />
+      <workItem from="1624600597486" duration="157000" />
     </task>
     <servers />
   </component>

@@ -2,17 +2,28 @@
     关键字驱动框架的程序主入口
 '''
 import os
-
-import excel_driver.excel_conf
+import allure
+import sys,os
 import pytest
-from excel_driver import excel_read
+from excel_driver import excel_read,excel_conf
 from my_conf import log_conf
+root_path = os.path.abspath(os.getcwd() + "\\.")
+sys.path.append(root_path)
 log = log_conf.get_log('./my_conf/log.ini')
+
 @pytest.mark.parametrize('excel_path,sheet,log',[("./data/data.xlsx","Sheet2",log)])
+@allure.story("关键字+excel数据驱动")
+@allure.title("测试用例")
 def test_01(excel_path,sheet,log):
+    '''测试用例'''
     excel_read.excel_runner(excel_path,sheet,log)
+    case_assert=excel_conf.excel_sheet(excel_path,sheet)[2]
+    for case in case_assert:
+        assert case=="pass","测试不通过"
+
 if __name__ == '__main__':
-    pytest.main(["-s -v"])
+    pytest.main(["-s","-v",'--alluredir', './allure_report'])
+    os.system('allure generate ./allure_report -o ./allure_report/report --clean')
     # 通过主入口调用excel的驱动读写，实现自动化测试
     # # 1. 生成日志器
     #
