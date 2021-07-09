@@ -1,7 +1,9 @@
+import sys,os
 import unittest
 import os, datetime
 from BeautifulReport import BeautifulReport
 from tools.smtp_post import email_
+
 
 if __name__ == '__main__':
     discover = unittest.defaultTestLoader.discover("../test_case", 'test*.py', None)

@@ -1,14 +1,11 @@
 '''
     关键字驱动类
 '''
-import logging.config
 from time import sleep
 from selenium.webdriver.support.wait import WebDriverWait
 
 from selenium import webdriver
-import logging.config
-# 要满足创建任意一个浏览器对象的需求。Chrome,chrome
-from my_conf import log_conf
+
 from my_conf.chrome_options import Options
 
 

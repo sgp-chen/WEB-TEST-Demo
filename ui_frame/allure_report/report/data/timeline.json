@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-5K9R3RE",
+    "children" : [ {
+      "name" : "15216-MainThread",
+      "children" : [ {
+        "name" : "测试用例",
+        "uid" : "64cbfe90addc0609",
+        "parentUid" : "8c8510a04e90c285dc9eaea49475200d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624617530694,
+          "stop" : 1624617548809,
+          "duration" : 18115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'./data/data.xlsx'", "<RootLogger root (INFO)>", "'Sheet2'" ]
+      } ],
+      "uid" : "8c8510a04e90c285dc9eaea49475200d"
+    } ],
+    "uid" : "541eea1ffdf6e78a7763188a137ef4de"
+  } ],
+  "name" : "timeline"
+}

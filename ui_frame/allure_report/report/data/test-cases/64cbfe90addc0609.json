@@ -1,0 +1,89 @@
+{
+  "uid" : "64cbfe90addc0609",
+  "name" : "测试用例",
+  "fullName" : "test_frame#test_01",
+  "historyId" : "90ad9c32048728a3a75de87a2ffe4af0",
+  "time" : {
+    "start" : 1624617530694,
+    "stop" : 1624617548809,
+    "duration" : 18115
+  },
+  "description" : "测试用例",
+  "descriptionHtml" : "<p>测试用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 测试不通过\nassert 'Failed' == 'pass'\n  - pass\n  + Failed",
+  "statusTrace" : "excel_path = './data/data.xlsx', sheet = 'Sheet2'\nlog = <RootLogger root (INFO)>\n\n    @pytest.mark.parametrize('excel_path,sheet,log',[(\"./data/data.xlsx\",\"Sheet2\",log)])\n    @allure.story(\"关键字+excel数据驱动\")\n    @allure.title(\"测试用例\")\n    def test_01(excel_path,sheet,log):\n        '''测试用例'''\n        excel_read.excel_runner(excel_path,sheet,log)\n        case_assert=excel_conf.excel_sheet(excel_path,sheet)[2]\n        for case in case_assert:\n>           assert case==\"pass\",\"测试不通过\"\nE           AssertionError: 测试不通过\nE           assert 'Failed' == 'pass'\nE             - pass\nE             + Failed\n\ntest_frame.py:22: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 测试不通过\nassert 'Failed' == 'pass'\n  - pass\n  + Failed",
+    "statusTrace" : "excel_path = './data/data.xlsx', sheet = 'Sheet2'\nlog = <RootLogger root (INFO)>\n\n    @pytest.mark.parametrize('excel_path,sheet,log',[(\"./data/data.xlsx\",\"Sheet2\",log)])\n    @allure.story(\"关键字+excel数据驱动\")\n    @allure.title(\"测试用例\")\n    def test_01(excel_path,sheet,log):\n        '''测试用例'''\n        excel_read.excel_runner(excel_path,sheet,log)\n        case_assert=excel_conf.excel_sheet(excel_path,sheet)[2]\n        for case in case_assert:\n>           assert case==\"pass\",\"测试不通过\"\nE           AssertionError: 测试不通过\nE           assert 'Failed' == 'pass'\nE             - pass\nE             + Failed\n\ntest_frame.py:22: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "747e910b910c8700",
+      "name" : "log",
+      "source" : "747e910b910c8700.txt",
+      "type" : "text/plain",
+      "size" : 873
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "关键字+excel数据驱动"
+  }, {
+    "name" : "suite",
+    "value" : "test_frame"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5K9R3RE"
+  }, {
+    "name" : "thread",
+    "value" : "15216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_frame"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excel_path",
+    "value" : "'./data/data.xlsx'"
+  }, {
+    "name" : "log",
+    "value" : "<RootLogger root (INFO)>"
+  }, {
+    "name" : "sheet",
+    "value" : "'Sheet2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "64cbfe90addc0609.json",
+  "parameterValues" : [ "'./data/data.xlsx'", "<RootLogger root (INFO)>", "'Sheet2'" ]
+}

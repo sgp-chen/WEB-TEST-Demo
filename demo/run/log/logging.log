@@ -209,3 +209,36 @@
 2021-06-22 20:37:24,903 - test_user.py[line:87] - INFO: 成功关闭浏览器
 2021-06-23 12:19:50,361 - login.py[line:31] - INFO: 打开Chrome浏览器
 2021-06-23 12:19:50,380 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-25 17:24:07,973 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-25 17:24:07,979 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-25 17:24:12,346 - login.py[line:45] - INFO: 登录saas成功
+2021-06-25 17:24:15,549 - login.py[line:51] - INFO: 成功关闭浏览器
+2021-06-25 17:24:17,079 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-25 17:24:17,081 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-25 17:24:21,531 - login.py[line:45] - INFO: 登录saas成功
+2021-06-25 17:24:27,247 - test_user.py[line:87] - INFO: 成功关闭浏览器
+2021-06-25 17:25:11,746 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-25 17:25:11,748 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-25 17:25:16,103 - login.py[line:45] - INFO: 登录saas成功
+2021-06-25 17:25:19,275 - login.py[line:51] - INFO: 成功关闭浏览器
+2021-06-25 17:25:20,842 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-25 17:25:20,843 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-25 17:25:25,117 - login.py[line:45] - INFO: 登录saas成功
+2021-06-25 17:25:26,217 - test_user.py[line:49] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-25 17:25:38,107 - test_user.py[line:87] - INFO: 成功关闭浏览器
+2021-06-25 17:25:43,890 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-25 17:25:43,892 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-25 17:25:48,242 - login.py[line:45] - INFO: 登录saas成功
+2021-06-25 17:25:51,424 - login.py[line:51] - INFO: 成功关闭浏览器
+2021-06-25 17:25:53,065 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-25 17:25:53,066 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-25 17:25:57,110 - login.py[line:45] - INFO: 登录saas成功
+2021-06-25 17:25:58,361 - test_user.py[line:49] - INFO: 成功跳转至:添加员工 - 线测环境总部页面
+2021-06-25 17:26:04,924 - test_user.py[line:58] - INFO: 添加员工成功
+2021-06-25 17:26:08,160 - test_user.py[line:87] - INFO: 成功关闭浏览器
+2021-06-29 11:10:32,469 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-29 11:10:32,471 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-29 11:10:35,667 - login.py[line:51] - INFO: 成功关闭浏览器
+2021-06-29 11:10:36,972 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-06-29 11:10:36,973 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-06-29 11:11:20,412 - test_user.py[line:67] - ERROR: 错误：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))

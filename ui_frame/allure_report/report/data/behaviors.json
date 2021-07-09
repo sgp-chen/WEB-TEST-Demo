@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "关键字+excel数据驱动",
+    "children" : [ {
+      "name" : "测试用例",
+      "uid" : "64cbfe90addc0609",
+      "parentUid" : "2da746829054cb65e4a9bf258309a472",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624617530694,
+        "stop" : 1624617548809,
+        "duration" : 18115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'./data/data.xlsx'", "<RootLogger root (INFO)>", "'Sheet2'" ]
+    } ],
+    "uid" : "2da746829054cb65e4a9bf258309a472"
+  } ],
+  "name" : "behaviors"
+}

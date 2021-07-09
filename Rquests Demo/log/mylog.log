@@ -1,0 +1,2 @@
+2021-07-09 14:56:48,575 test_requests_excel.py INFO  test_excel  正在执行第1条用例
+2021-07-09 14:56:48,591 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求

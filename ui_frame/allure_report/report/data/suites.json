@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_frame",
+    "children" : [ {
+      "name" : "测试用例",
+      "uid" : "64cbfe90addc0609",
+      "parentUid" : "7451bf16adf50d02c158349aacd6bb97",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624617530694,
+        "stop" : 1624617548809,
+        "duration" : 18115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'./data/data.xlsx'", "<RootLogger root (INFO)>", "'Sheet2'" ]
+    } ],
+    "uid" : "7451bf16adf50d02c158349aacd6bb97"
+  } ],
+  "name" : "suites"
+}
