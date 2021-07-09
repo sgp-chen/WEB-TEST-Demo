@@ -9,3 +9,13 @@
 2021-07-09 15:25:19,451 Excel_config.py INFO  Case_Run  正在执行：验证状态码
 2021-07-09 15:25:23,532 tools.py INFO  assert_post  status_code r=200
 2021-07-09 15:25:23,533 tools.py INFO  assert_post  status_code code=200
+2021-07-09 15:29:09,123 test_requests_excel.py INFO  test_excel  正在执行第1条用例
+2021-07-09 15:29:09,139 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 15:29:09,223 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 15:29:09,288 tools.py INFO  assert_get  status_code r=200
+2021-07-09 15:29:09,289 tools.py INFO  assert_get  status_code code=200
+2021-07-09 15:29:09,336 test_requests_excel.py INFO  test_excel  正在执行第2条用例
+2021-07-09 15:29:09,357 Excel_config.py INFO  Case_Run  正在执行：post接口测试
+2021-07-09 15:29:10,315 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 15:29:11,967 tools.py INFO  assert_post  status_code r=200
+2021-07-09 15:29:11,967 tools.py INFO  assert_post  status_code code=200
