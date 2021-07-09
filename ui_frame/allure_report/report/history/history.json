@@ -1,0 +1,22 @@
+{
+  "90ad9c32048728a3a75de87a2ffe4af0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64cbfe90addc0609",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 测试不通过\nassert 'Failed' == 'pass'\n  - pass\n  + Failed",
+      "time" : {
+        "start" : 1624617530694,
+        "stop" : 1624617548809,
+        "duration" : 18115
+      }
+    } ]
+  }
+}

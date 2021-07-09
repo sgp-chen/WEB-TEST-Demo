@@ -1,0 +1,14 @@
+INFO     root:excel_read.py:23 正在执行：创建chrome浏览器
+INFO     root:excel_read.py:23 正在执行：访问电商系统
+INFO     root:excel_read.py:23 正在执行：进入登录页
+INFO     root:excel_read.py:23 正在执行：输入账号
+INFO     root:excel_read.py:23 正在执行：输入密码
+INFO     root:excel_read.py:23 正在执行：点击登录按钮
+INFO     root:excel_read.py:23 正在执行：校验登录后是否存在有退出的元素
+ERROR    root:web_keys.py:81 出现异常，断言失败：退出1 != 退出
+Traceback (most recent call last):
+  File "D:\python demo\ui_frame\ui_keys\web_keys.py", line 78, in assert_text
+    assert expect == reality, '断言失败'
+AssertionError: 断言失败
+INFO     root:excel_read.py:23 正在执行：强制等待5秒
+INFO     root:excel_read.py:23 正在执行：关闭浏览器并释放资源
