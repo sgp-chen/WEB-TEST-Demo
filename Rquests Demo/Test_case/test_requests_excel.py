@@ -15,7 +15,7 @@ class test_case(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        cls.log=get_log("../my_config/log.config")
+        cls.log=get_log("../my_config/log.ini")
     @data(*tuple(num))
     def test_excel(self, num):
         self.log.info("正在执行第{}条用例".format(num))
