@@ -1,2 +1,11 @@
 2021-07-09 14:56:48,575 test_requests_excel.py INFO  test_excel  正在执行第1条用例
 2021-07-09 14:56:48,591 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 15:25:18,287 test_requests_excel.py INFO  test_excel  正在执行第1条用例
+2021-07-09 15:25:18,304 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 15:25:18,385 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 15:25:18,454 tools.py ERROR  assert_get  测试异常，异常码为Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:25:18,500 test_requests_excel.py INFO  test_excel  正在执行第2条用例
+2021-07-09 15:25:18,518 Excel_config.py INFO  Case_Run  正在执行：post接口测试
+2021-07-09 15:25:19,451 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 15:25:23,532 tools.py INFO  assert_post  status_code r=200
+2021-07-09 15:25:23,533 tools.py INFO  assert_post  status_code code=200
