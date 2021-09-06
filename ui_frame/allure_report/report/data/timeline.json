@@ -1,12 +1,13 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
     "name" : "DESKTOP-5K9R3RE",
     "children" : [ {
       "name" : "15216-MainThread",
       "children" : [ {
         "name" : "测试用例",
-        "uid" : "64cbfe90addc0609",
+        "uid" : "8d743062797f4fdf",
         "parentUid" : "8c8510a04e90c285dc9eaea49475200d",
         "status" : "failed",
         "time" : {
@@ -19,8 +20,24 @@
         "parameters" : [ "'./data/data.xlsx'", "<RootLogger root (INFO)>", "'Sheet2'" ]
       } ],
       "uid" : "8c8510a04e90c285dc9eaea49475200d"
+    }, {
+      "name" : "39800-MainThread",
+      "children" : [ {
+        "name" : "测试用例",
+        "uid" : "d78359c5bc28b5b0",
+        "parentUid" : "900cca1f10c64f91a986bdde4c3813a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628576819546,
+          "stop" : 1628576825956,
+          "duration" : 6410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'./data/data.xlsx'", "<RootLogger root (INFO)>", "'Sheet2'" ]
+      } ],
+      "uid" : "900cca1f10c64f91a986bdde4c3813a9"
     } ],
     "uid" : "541eea1ffdf6e78a7763188a137ef4de"
-  } ],
-  "name" : "timeline"
+  } ]
 }

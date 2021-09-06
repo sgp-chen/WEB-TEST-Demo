@@ -242,3 +242,30 @@
 2021-06-29 11:10:36,972 - login.py[line:31] - INFO: 打开Chrome浏览器
 2021-06-29 11:10:36,973 - login.py[line:35] - INFO: 实例化浏览器对象成功
 2021-06-29 11:11:20,412 - test_user.py[line:67] - ERROR: 错误：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2021-09-07 02:11:41,446 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-09-07 02:11:41,477 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-09-07 02:11:48,815 - login.py[line:51] - INFO: 成功关闭浏览器
+2021-09-07 02:11:50,752 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-09-07 02:11:50,753 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-09-07 02:13:19,444 - test_user.py[line:67] - ERROR: 错误：Message: chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+
+2021-09-07 02:13:34,745 - test_user.py[line:87] - INFO: 成功关闭浏览器
+2021-09-07 02:15:01,860 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-09-07 02:15:01,861 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-09-07 02:15:07,949 - login.py[line:51] - INFO: 成功关闭浏览器
+2021-09-07 02:15:09,812 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-09-07 02:15:09,814 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-09-07 02:15:55,837 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-09-07 02:15:55,839 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-09-07 02:16:00,027 - login.py[line:45] - INFO: 登录saas成功
+2021-09-07 02:16:03,240 - login.py[line:51] - INFO: 成功关闭浏览器
+2021-09-07 02:16:05,182 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-09-07 02:16:05,184 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-09-07 02:16:09,247 - login.py[line:45] - INFO: 登录saas成功
+2021-09-07 02:16:10,848 - test_user.py[line:27] - INFO: 会员搜索成功
+2021-09-07 02:16:10,944 - test_user.py[line:35] - INFO: 重置按钮重置成功
+2021-09-07 02:16:12,030 - test_user.py[line:43] - INFO: 切换标签成功
+2021-09-07 02:16:46,065 - login.py[line:31] - INFO: 打开Chrome浏览器
+2021-09-07 02:16:46,067 - login.py[line:35] - INFO: 实例化浏览器对象成功
+2021-09-07 02:16:49,479 - login.py[line:45] - INFO: 登录saas成功

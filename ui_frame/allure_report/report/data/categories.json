@@ -1,18 +1,19 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "AssertionError: 测试不通过\nassert 'Failed' == 'pass'\n  - pass\n  + Failed",
       "children" : [ {
         "name" : "测试用例",
-        "uid" : "64cbfe90addc0609",
+        "uid" : "d78359c5bc28b5b0",
         "parentUid" : "3feca32d0f83b422f5d03d4cd086df4a",
         "status" : "failed",
         "time" : {
-          "start" : 1624617530694,
-          "stop" : 1624617548809,
-          "duration" : 18115
+          "start" : 1628576819546,
+          "stop" : 1628576825956,
+          "duration" : 6410
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,6 +22,5 @@
       "uid" : "3feca32d0f83b422f5d03d4cd086df4a"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
-  "name" : "categories"
+  } ]
 }

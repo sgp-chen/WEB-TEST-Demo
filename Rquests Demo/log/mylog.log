@@ -29,3 +29,21 @@
 2021-07-09 15:31:30,567 Excel_config.py INFO  Case_Run  正在执行：验证状态码
 2021-07-09 15:31:31,520 tools.py INFO  assert_post  status_code r=200
 2021-07-09 15:31:31,521 tools.py INFO  assert_post  status_code code=200
+2021-07-09 18:40:49,769 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 18:40:49,921 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 18:40:49,921 tools.py ERROR  assert_get  测试异常，异常码为get() missing 1 required positional argument: 'url'
+2021-07-09 18:44:13,049 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 18:44:13,049 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 18:45:54,441 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 18:45:54,442 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 18:47:09,913 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 18:47:09,983 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 18:47:09,984 tools.py ERROR  assert_get  测试异常，异常码为get() missing 1 required positional argument: 'url'
+2021-07-09 18:52:15,135 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 18:53:08,155 test_requests_excel.py INFO  test_excel  正在执行第1条用例
+2021-07-09 18:53:08,171 Excel_config.py INFO  Case_Run  正在执行：中国天气网接口请求
+2021-07-09 18:53:18,289 test_requests_excel.py INFO  test_excel  正在执行第2条用例
+2021-07-09 18:53:18,322 Excel_config.py INFO  Case_Run  正在执行：post接口测试
+2021-07-09 18:53:20,948 Excel_config.py INFO  Case_Run  正在执行：验证状态码
+2021-07-09 18:53:24,234 tools.py INFO  assert_post  status_code r=200
+2021-07-09 18:53:24,235 tools.py INFO  assert_post  status_code code=200

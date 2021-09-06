@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Jun 25 18:38:50 CST 2021","Fri Jun 25 18:39:08 CST 2021","18115","","test_frame","","","","测试用例","测试用例"
+"failed","Tue Aug 10 14:26:59 CST 2021","Tue Aug 10 14:27:05 CST 2021","6410","","test_frame","","","","测试用例","测试用例"

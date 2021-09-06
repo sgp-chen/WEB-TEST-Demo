@@ -1,7 +1,7 @@
 import openpyxl
 from Tools.tools import Requests_tools
-import logging, logging.config
-
+from my_config.log_config import get_log
+log= get_log("../my_config/log.ini")
 
 class Excel_Config():
     def Case_Run(self, i,log, path):
@@ -48,4 +48,4 @@ class Excel_Config():
 
 
 if __name__ == '__main__':
-    Excel_Config().Case_Run(1, "../data/新建 XLSX 工作表.xlsx")
+    Excel_Config().Case_Run(1, log,"../data/新建 XLSX 工作表.xlsx")

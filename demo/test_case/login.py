@@ -49,6 +49,7 @@ class login_(unittest.TestCase):
         time.sleep(1)
         cls.driver.quit()
         logging.info("成功关闭浏览器")
+    
 
 if __name__ == '__main__':
     unittest.main()

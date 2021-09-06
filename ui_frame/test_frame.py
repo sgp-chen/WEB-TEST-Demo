@@ -1,19 +1,21 @@
 '''
     关键字驱动框架的程序主入口
 '''
-import os
 import allure
 import sys,os
 import pytest
 from excel_driver import excel_read,excel_conf
-from my_conf import log_conf
+import logging.config
+from os import path
 
 
 root_path = os.path.abspath(os.getcwd() + "\\.")
 sys.path.append(root_path)
-log = log_conf.get_log('./my_conf/log.ini')
-
-@pytest.mark.parametrize('excel_path,sheet,log',[("./data/data.xlsx","Sheet2",log)])
+log_path = "./my_conf/log.ini"
+log_file_path = path.join(path.dirname(path.abspath(__file__)), log_path)
+logging.config.fileConfig(log_file_path)
+logs = logging.getLogger("root")
+@pytest.mark.parametrize('excel_path,sheet,log',[("./data/data.xlsx","Sheet2",logs)])
 @allure.story("关键字+excel数据驱动")
 @allure.title("测试用例")
 def test_01(excel_path,sheet,log):

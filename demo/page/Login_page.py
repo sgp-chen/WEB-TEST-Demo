@@ -13,7 +13,8 @@ class login_page(tools):
         self.send_(self.le.user, username)
         self.send_(self.le.pwd, passwd)
         self.click_(self.le.button)
-        sleep(2)
+        self.click_(self.le.club)
+        sleep(1)
         self.refresh_()
 # if __name__ == '__main__':
 #     driver=webdriver.Chrome()

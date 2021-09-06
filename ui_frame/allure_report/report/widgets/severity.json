@@ -1,10 +1,10 @@
 [ {
-  "uid" : "64cbfe90addc0609",
+  "uid" : "d78359c5bc28b5b0",
   "name" : "测试用例",
   "time" : {
-    "start" : 1624617530694,
-    "stop" : 1624617548809,
-    "duration" : 18115
+    "start" : 1628576819546,
+    "stop" : 1628576825956,
+    "duration" : 6410
   },
   "status" : "failed",
   "severity" : "normal"
